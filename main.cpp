@@ -35,12 +35,12 @@ int main()
     if(Metoda==1){
         cout<<"Wybrales metode iteracyjna"<<endl;
         long long Wynik=fibI(Element);
-        cout<<Element<<endl;
+        cout<<Wynik<<endl;
     }
     if(Metoda==2){
         cout<<"Wybrales metode rekurencyjna"<<endl;
         long long Wynik=fibR(Element);
-        cout<<Element<<endl;
+        cout<<Wynik<<endl;
     }
 
     return 0;
